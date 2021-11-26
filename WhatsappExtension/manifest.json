@@ -1,0 +1,17 @@
+{
+  "name": "Whatsapp Hide features",
+  "description": "Hide Whatsapp Status button for focus",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["script.js"]
+    }],
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "/images/whatsapp.png",
+    "32": "/images/whatsapp.png",
+    "48": "/images/whatsapp.png",
+    "128": "/images/whatsapp.png"
+  }
+}
