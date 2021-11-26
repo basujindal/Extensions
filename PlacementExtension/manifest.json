@@ -1,0 +1,25 @@
+{
+  "name": "Placements IIT Madras",
+  "description": "Find New Companies",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+  "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+  "default_icon": {
+    "16": "/images/mywebsite.png",
+    "32": "/images/mywebsite.png",
+    "48": "/images/mywebsite.png",
+    "128": "/images/mywebsite.png"
+    }
+  },
+  "icons": {
+    "16": "/images/mywebsite.png",
+    "32": "/images/mywebsite.png",
+    "48": "/images/mywebsite.png",
+    "128": "/images/mywebsite.png"
+  }
+}

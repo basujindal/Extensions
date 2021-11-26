@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    min-width:300px;
+    background-color: #1f3b47;
+}
+
+p {
+  font-size: 15px;
+  color:  white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<p>On the Placement website, go to the <b>Companies</b> tab, i.e. the list of companies open for your branch. Now, use <b>Set Companies</b> button to first save the initial list of companies. <br> From next time, use <b>New Companies</b> button to find if any new company has been added. If a new company is added, a pop up will show up telling the name, role and the index of the new company. <br> It will also color the company name in <strong><span style="color:gold">golden</span></strong>. Finally, use the <b>Set Companies</b> button again to save the updated list of companies. To remove the <strong><span style="color:gold">golden</span></strong> color from the new company name, use the <b>Reset Color</b> button.</p>
+
+</style>
+</head>
+<body>
+
+  <button class="button button2" id="getNewCompanies">New Companies</button>
+  <button class="button button1"  id="changeColor">Set Companies</button>
+  <button class="button button3" id="resetColor">Reset Color</button>
+  <script src="popup.js"></script>
+
+</body>
+</html>
+
