@@ -1,0 +1,25 @@
+{
+  "name": "Notes",
+  "description": "Notes for chrome",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/images/mywebsite.png",
+      "32": "/images/mywebsite.png",
+      "48": "/images/mywebsite.png",
+      "128": "/images/mywebsite.png"
+    }
+  },
+  "icons": {
+    "16": "/images/mywebsite.png",
+    "32": "/images/mywebsite.png",
+    "48": "/images/mywebsite.png",
+    "128": "/images/mywebsite.png"
+  }
+}
